@@ -46,7 +46,7 @@ var utils_1 = require("../utils");
 var messages = {"en":
 {"addToCart": "Add To Cart",
 "addedToMyRecipes": "Added to My Recipes!",
-"addToMyRecipes": "Add to My Recipes TEST",
+"addToMyRecipes": "Add to My Recipes",
 "beTheFirstReview": "Be the first to leave a review",
 "buyNow": "Buy Now",
 "cart": "Cart",
