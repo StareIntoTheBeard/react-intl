@@ -43,7 +43,7 @@ var injectIntl_1 = require("./injectIntl");
 var shallowEquals = require('shallow-equal/objects');
 var format_1 = require("../format");
 var utils_1 = require("../utils");
-let messages = {"en":
+var messages = {"en":
 {"addToCart": "Add To Cart",
 "addedToMyRecipes": "Added to My Recipes!",
 "addToMyRecipes": "Add to My Recipes TEST",
@@ -120,6 +120,8 @@ let messages = {"en":
 "viewAll": "View All",
 "whole": "whole",
 "writeAReview": "Write a review",
+"yourAddress": "Your Address",
+"yourInformation": "Your Information",
 "emailField": "Enter email",
 "firstNameField": "Enter First Name",
 "lastNameField": "Enter Last Name",
@@ -222,6 +224,8 @@ let messages = {"en":
 "viewAll": "Ver todo",
 "whole": "todo",
 "writeAReview": "Escribe una reseña",
+"yourAddress": "Su dirección",
+"yourInformation": "Tu información",
 "emailField": "Ingrese correo electrónico",
 "firstNameField": "Ingrese el nombre",
 "lastNameField": "Introduzca el apellido",
@@ -250,12 +254,13 @@ let messages = {"en":
 };
 
 var defaultFormatMessage = function (descriptor, values) {
-    let locale = navigator.language.split("-")[0];
-    let config  =  {
-        ...utils_1.DEFAULT_INTL_CONFIG,
+    var locale = navigator.language.split("-")[0];
+    var config = Object.assign({}, utils_1.DEFAULT_INTL_CONFIG);
+    config = Object.assign(config, {
         messages: messages[locale],
         locale: locale,
-    };
+    });
+
 
     if ('development' !== 'production') {
         console.error('[React Intl] Could not find required `intl` object. <IntlProvider> needs to exist in the component ancestry. Using default message as fallback.');
