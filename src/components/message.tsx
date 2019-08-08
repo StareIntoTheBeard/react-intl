@@ -30,8 +30,7 @@ const defaultFormatMessage = (
     );
   }
 
-  let messages : any =
-    {"en":
+  let messages : any = {"en":
       {"addToCart": "Add To Cart",
       "addedToMyRecipes": "Added to My Recipes!",
       "addToMyRecipes": "Add to My Recipes TEST",

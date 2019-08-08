@@ -43,8 +43,7 @@ var injectIntl_1 = require("./injectIntl");
 var shallowEquals = require('shallow-equal/objects');
 var format_1 = require("../format");
 var utils_1 = require("../utils");
-let messages =
-{"en":
+let messages = {"en":
 {"addToCart": "Add To Cart",
 "addedToMyRecipes": "Added to My Recipes!",
 "addToMyRecipes": "Add to My Recipes TEST",
