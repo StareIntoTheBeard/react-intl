@@ -248,6 +248,7 @@ let messages =
 "bunch":"{count, plural, =0 {manojo} one {manojo} other {manojos}}",
 "pinch":"{count, plural, =0 {pinch} one {pinch} other {pinches}}",
 "errorFlash": "Ocurrió un error."}
+};
 
 var defaultFormatMessage = function (descriptor, values) {
     let locale = navigator.language.split("-")[0];
