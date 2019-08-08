@@ -251,11 +251,17 @@ let messages =
 }
 
 var defaultFormatMessage = function (descriptor, values) {
-  let locale = navigator.language.split("-")[0];
-let config  =  {
-  ...utils_1.DEFAULT_INTL_CONFIG,
-  messages: messages[locale],
-  locale: locale,
+    let locale = navigator.language.split("-")[0];
+    let config  =  {
+        ...utils_1.DEFAULT_INTL_CONFIG,
+        messages: messages[locale],
+        locale: locale,
+    };
+
+    if ('development' !== 'production') {
+        console.error('[React Intl] Could not find required `intl` object. <IntlProvider> needs to exist in the component ancestry. Using default message as fallback.');
+    }
+    return format_1.formatMessage(config, utils_1.createFormatters(), descriptor, values);
 };
 var FormattedMessage = /** @class */ (function (_super) {
     __extends(FormattedMessage, _super);
