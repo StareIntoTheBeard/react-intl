@@ -387,7 +387,7 @@ const defaultFormatMessage = (
   "kilogram": '{count, plural, =0 {kilogramme} one {kilogramme} other {kilogrammes}}',
   "milliliter": '{count, plural, =0 {millilitre} one {millilitre} other {millilitres}}',
   "liter": '{count, plural, =0 {litre} one {litre} other {litres}}',
-  "teaspoonFraction": 'cuillère à thé',
+  "teaspoonFraction": 'cuillère à café',
   "tablespoonFraction": 'cuillerée à soupe',
   "ounceFraction": 'once',
   "cupFraction": 'tasse',
