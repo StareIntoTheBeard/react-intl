@@ -269,7 +269,6 @@ const defaultFormatMessage = (
   "pintFraction":"pinta",
   "quartFraction":"cuarto de galón",
   "gallonFraction":"galón",
-  "ounceFraction":"onza",
   "poundFraction":"libra",
   "inchFraction":"pulgada",
   "wholeFraction":"entero",
