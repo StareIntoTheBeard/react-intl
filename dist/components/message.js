@@ -33,7 +33,7 @@ var __rest = (this && this.__rest) || function (s, e) {
     for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
         t[p] = s[p];
     if (s != null && typeof Object.getOwnPropertySymbols === "function")
-        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+        for (var i =0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
             t[p[i]] = s[p[i]];
     return t;
 };
@@ -220,7 +220,7 @@ var messages = {"en":
 "recipeMe": "Me receta",
 "removedFromMyRecipes": "Eliminado de mis recetas",
 "removeFromMyRecipes": "Eliminar de mis recetas",
-"reviewPlural":"'{count, plural, = 0 {Reviews} one {Review} other {Reviews}}",
+"reviewPlural":"'{count, plural, =0 {Reviews} one {Review} other {Reviews}}",
 "scheduled": "Programado",
 "selectProduct": "Selecciona tu producto",
 "serialNumber": "Número de serie",
@@ -258,23 +258,23 @@ var messages = {"en":
 "serialNumberField": "Ingrese número de serie",
 "userRecipeCommentsField": "Use este espacio para tomar notas que tenga para esta receta. Estas notas son personales y solo serán visibles para usted.",
 "usernameField": "Introduzca su nombre de usuario",
-"teaspoon":"{cuenta, plural, = 0 {cucharadita} una {cucharadita} otra {cucharaditas}}",
-"tablespoon":"{cuenta, plural, = 0 {cucharada} una {cucharada} otra {cucharadas}}",
-"cup":"{count, plural, = 0 {taza} one {taza} other {tazas}}",
-"pint":"{cuenta, plural, = 0 {pinta} una {pinta} otra {pintas}}",
-"quart":"{cuenta, plural, = 0 {cuarto de galón} uno {cuarto de galón} otro {cuarto de galóns}}",
-"gallon":"{cuenta, plural, = 0 {galón} uno {galón} otro {galón}}",
-"ounce":"{cuenta, plural, = 0 {onza} uno {onza} otro {onzas}}",
-"pound":"{cuenta, plural, = 0 {libra} una {libra} otra {libras}}",
-"inch":"{count, plural, = 0 {pulgada} one {pulgada} other {pulgadas}}",
-"wholePlural":"{cuenta, plural, = 0 {entero} uno {entero} otro {entero}}",
-"splash":"{cuenta, plural, = 0 {poquito} uno {poquito} otro {poquitos}}",
-"bunch":"{cuenta, plural, = 0 {manojo} uno {manojo} otro {manojos}}",
-"pinch":"{count, plural, = 0 {pizca} one {pizca} other {pizcas}}",
-"gram":"{count, plural, = 0 {gramo} one {gramo} other {gramos}}",
-"kilogram":"{count, plural, = 0 {kilogramo} one {kilogramo} other {kilogramos}}",
-"milliliter":"{count, plural, = 0 {mililitro} one {mililitro} other {mililitros}}",
-"liter":"{count, plural, = 0 {litro} one {litro} other {litros}}",
+"teaspoon":"{cuenta, plural, =0 {cucharadita} one {cucharadita} other {cucharaditas}}",
+"tablespoon":"{cuenta, plural, =0 {cucharada} one {cucharada} other {cucharadas}}",
+"cup":"{count, plural, =0 {taza} one {taza} other {tazas}}",
+"pint":"{cuenta, plural, =0 {pinta} one {pinta} other {pintas}}",
+"quart":"{cuenta, plural, =0 {cuarto de galón} one {cuarto de galón} other {cuarto de galóns}}",
+"gallon":"{cuenta, plural, =0 {galón} one {galón} other {galón}}",
+"ounce":"{cuenta, plural, =0 {onza} one {onza} other {onzas}}",
+"pound":"{cuenta, plural, =0 {libra} one {libra} other {libras}}",
+"inch":"{count, plural, =0 {pulgada} one {pulgada} other {pulgadas}}",
+"wholePlural":"{cuenta, plural, =0 {entero} one {entero} other {entero}}",
+"splash":"{cuenta, plural, =0 {poquito} one {poquito} other {poquitos}}",
+"bunch":"{cuenta, plural, =0 {manojo} one {manojo} other {manojos}}",
+"pinch":"{count, plural, =0 {pizca} one {pizca} other {pizcas}}",
+"gram":"{count, plural, =0 {gramo} one {gramo} other {gramos}}",
+"kilogram":"{count, plural, =0 {kilogramo} one {kilogramo} other {kilogramos}}",
+"milliliter":"{count, plural, =0 {mililitro} one {mililitro} other {mililitros}}",
+"liter":"{count, plural, =0 {litro} one {litro} other {litros}}",
 "teaspoonFraction":"cucharadita",
 "tablespoonFraction":"cucharada",
 "ounceFraction":"onza",
